@@ -6,6 +6,6 @@
     <StartupObject></StartupObject>
   </PropertyGroup>
   <PropertyGroup>
-		<RuntimeIdentifiers>win-x64;linux-x64</RuntimeIdentifiers>
-	</PropertyGroup>
+    <RuntimeIdentifiers>win-x64;linux-x64</RuntimeIdentifiers>
+  </PropertyGroup>
 </Project>
