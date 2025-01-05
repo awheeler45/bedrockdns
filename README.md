@@ -50,18 +50,18 @@ Follow these steps to build the project for both Windows and Linux platforms:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/bedrockdns.git
+   git clone https://github.com/awheeler45/bedrockdns.git
    cd bedrockdns
    ```
 
 2. Build for Windows:
    ```bash
-   dotnet publish -c Release -r win-x64 --self-contained true -p:PublishSingleFile=true -o ./release/win-x64
+   dotnet publish -c Release -r win-x64 --self-contained true -p:PublishSingleFile=true -o ./release/win-x64 BEDROCKDNS.csproj
    ```
 
 3. Build for Linux:
    ```bash
-   dotnet publish -c Release -r linux-x64 --self-contained true -p:PublishSingleFile=true -o ./release/linux-x64
+   dotnet publish -c Release -r linux-x64 --self-contained true -p:PublishSingleFile=true -o ./release/linux-x64 BEDROCKDNS.csproj
    ```
 
 4. The built executables will be located in the `release` folder:
@@ -113,12 +113,6 @@ BEDROCKDNS.exe 192.168.1.246
 ```
 
 Set your device's DNS server to point to the machine running `BEDROCKDNS`.
-
----
-
-## Contributing
-
-Feel free to submit issues or pull requests to improve this project. Contributions are always welcome!
 
 ---
 
